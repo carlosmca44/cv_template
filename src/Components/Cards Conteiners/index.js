@@ -11,10 +11,6 @@ const styles = theme=>({
         margin:'10px 0px',
         color:theme.palette.secondary.main
     },
-    progressline:{
-        height:15,
-        borderRadius:'50%'
-    },
     title:{
         fontSize:18,
         color:theme.palette.secondary.main
@@ -46,10 +42,10 @@ class Containers extends Component{
                             {this.props.themes}
                         </Typography>
                     {
-                        this.props.maped.map((key, value) =>(
-                            <Grid container direction='column' justify={'center'} spacing='2'>
+                        this.props.maped.map((key, index) =>(
+                            <Grid container direction='column' justify={'center'} spacing={2} key={index}>
                                 <Grid item>
-                                    <Typography className={classes.title}><b>{key.title}</b></Typography>
+                                    <Typography className={classes.title} component='b'>{key.title}</Typography>
                                 </Grid>
                                 <Grid item>
                                     <Typography className={classes.date}>

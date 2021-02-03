@@ -9,7 +9,8 @@ const styles = theme=>({
     },
     text:{
         fontSize:'15px',
-        padding:'15px 0px'
+        padding:'15px 0px',
+        marginLeft:'1%'
     }
 })
 

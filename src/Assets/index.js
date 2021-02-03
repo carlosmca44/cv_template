@@ -79,29 +79,29 @@ export const themes = [
 export const progressValue = [
 	{
 		"technology":"React",
-		"progress":"40",
+		"progress":60,
 	},
 	{
 		"technology":"Python",
-		"progress":"35",
+		"progress":45,
 	},
 	{
 		"technology":"Telegram Bots",
-		"progress":"60",
+		"progress":30,
 	},
 ]
 
 export const languageDomain = [
 	{
 		"language":"Spanish",
-		"domain":"100"
+		"domain":100
 	},
 	{
 		"language":"English",
-		"domain":"39"
+		"domain":40
 	},
 	{
 		"language":"French",
-		"domain":"11"
+		"domain":11
 	},
 ]
